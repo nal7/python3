@@ -1,0 +1,41 @@
+.git --version
+
+.git config --global user.name "Your Name"
+.git config --global user.email "your@email.com"
+
+.git init
+
+.git status
+
+.git add file.js
+
+.git add file.js file2.js file3.js
+
+.git add .
+
+.git commit -m "Commit message"
+
+.git log
+
+.git checkout <commit-hash>
+
+.git checkout master
+
+.git branch <new-branch-name>
+
+.git checkout <branch-name>
+
+.git checkout -b <new-branch-name>
+
+To list the branches for your project, use this command: 
+.git branch
+
+.git checkout master
+
+.git merge <branch-name>
+
+To delete a branch, you can run the git branch command with the -d flag:
+.git branch -d <branch-name>
+
+
+
